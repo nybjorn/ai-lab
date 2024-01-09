@@ -12,6 +12,7 @@ from langchain.chains.conversation.prompt import PROMPT
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceInstructEmbeddings, LlamaCppEmbeddings
 from langchain.vectorstores import Chroma
+from langchain.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 from langchain.llms import HuggingFaceHub
 import glob
